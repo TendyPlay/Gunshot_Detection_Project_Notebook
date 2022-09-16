@@ -3,6 +3,8 @@ Attempts to run code from https://github.com/gabemagee/gunshot_detection in Goog
 
 This is what I've been able to get running as of right now.
 
+Be sure to change the Runtime Type to GPU. Do this by hitting Runtime > Change Runtime Type > Hardware Accelerator > GPU at the top toolbar.
+
 Keep in mind, you will need to go to https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2KI6IH and save the following files:
 
 1D.tflite
@@ -11,3 +13,4 @@ Keep in mind, you will need to go to https://dataverse.harvard.edu/dataset.xhtml
 augmented_labels.npy
 
 Save somewhere on your drive/cloud for quick access, because once you close the session down and try to retart it at another time, you will need to rerun everything in order to run the code, and the files that you uploaded will be wiped.
+

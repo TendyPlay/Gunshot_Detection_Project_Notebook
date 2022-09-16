@@ -7,10 +7,10 @@ Be sure to change the Runtime Type to GPU. Do this by hitting Runtime > Change R
 
 Keep in mind, you will need to go to https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/2KI6IH and save the following files:
 
-1D.tflite
-128_x_64_2D.tflite
-128_x_128_2D.tflite
-augmented_labels.npy
+1D.tflite<br />
+128_x_64_2D.tflite<br />
+128_x_128_2D.tflite<br /><br />
+augmented_labels.npy<br />
 
 Save somewhere on your drive/cloud for quick access, because once you close the session down and try to retart it at another time, you will need to rerun everything in order to run the code, and the files that you uploaded will be wiped.
 
